@@ -30,19 +30,19 @@ Of course you can also call the API through Postman or with classical curl comma
 * product/<int:pk> -> See details of a product. GET
 * order/ -> Order cart. POST
 
-* To add a product you have to send a POST JSON request with the id of the product you want to add.
 # Example
 - ```{ "id":1 }```
+* To add a product you have to send a POST JSON request with the id of the product you want to add.
 
-* To remove a product you have to send a DELETE JSON request with the id of the product that you want to remove.
 # Example
 - ```remove/<id>```
+* To remove a product you have to send a DELETE JSON request with the id of the product that you want to remove.
 
-* To order your Cart you have to send a POST JSON request with the date and time of delivery you wish formatted like this "delivery_date":"(YYYY/MM/DD HH:mm)"
 # Example
 - ```{ "delivery_date":"2022/10/25 15:30"}```
+* To order your Cart you have to send a POST JSON request with the date and time of delivery you wish formatted like this "delivery_date":"(YYYY/MM/DD HH:mm)"
 
-* To check a product details you have to send a simple GET request with the id"
 # Example
 - ```/product/<id>```
+* To check a product details you have to send a simple GET request with the id"
 
