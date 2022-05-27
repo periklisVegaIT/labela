@@ -18,8 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy our codebase into the container
 COPY . .
 
-RUN ./manage.py collectstatic --noinput
-
 # Ops Parameters
 ENV WORKERS=2
 ENV PORT=8000

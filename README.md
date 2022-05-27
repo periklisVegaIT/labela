@@ -18,6 +18,13 @@ Of course you can also call the API through Postman or with classical curl comma
 * This will create all the nessecary containers(For the app and the database).
 - ```docker compose up```
 
+* After that use the CLI of the Web container to migrate django's default models and api's app models.
+- ```python manage.py makemigrations```
+- ```python manage.py migrate```
+- ```python manage.py makemigrations api```
+- ```python manage.py migrate api```
+
+
 * There is a fixture called products.json with 5 dummy products for the database, you can populate the database by using the command below in docker's web container through CLI:
 - ```python manage.py loaddata products.json```
 

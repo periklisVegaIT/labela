@@ -8,5 +8,4 @@ class Product(models.Model):
     price = models.IntegerField()
 
 class CartItem(models.Model):
-    name = models.CharField(max_length=100)
     product = models.ForeignKey(Product,on_delete=models.CASCADE)
