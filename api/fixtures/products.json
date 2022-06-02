@@ -1,0 +1,46 @@
+[
+  {
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+      "name": "Door",
+      "price": 50
+    }
+  },
+
+  {
+  "model": "api.product",
+  "pk": 2,
+  "fields": {
+      "name": "Brakes",
+      "price": 150
+    }
+  },
+
+  {
+  "model": "api.product",
+  "pk": 3,
+  "fields": {
+      "name": "Engine",
+      "price": 200
+      }
+  },
+
+  {
+  "model": "api.product",
+  "pk": 4,
+  "fields": {
+      "name": "Oil",
+      "price": 15
+      }
+  },
+
+  {
+  "model": "api.product",
+  "pk": 5,
+  "fields": {
+      "name": "Wheel",
+      "price": 30
+      }
+  }
+]
